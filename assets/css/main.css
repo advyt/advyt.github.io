@@ -705,6 +705,7 @@ input, select, textarea {
 				margin-left: -2.5em;
 			}
 		
+
 		input[type="button"].right,
 		input[type="submit"].right,
 		input[type="reset"].right,
@@ -788,7 +789,7 @@ input, select, textarea {
 		input[type="reset"].style3,
 		.button.style3,
 		button.style3 {
-		background-color: #000000;
+		background-color: #FFFFFF;
 		border: solid 2px #000000;
 		color: inherit;		
 		}
@@ -798,7 +799,8 @@ input, select, textarea {
 			input[type="reset"].style3:hover,
 			.button.style3:hover,
 			button.style3:hover {
-				background-color: rgba(229, 230, 231, 0.25);
+				background-color: #000000;
+				border: solid 2px #FFFFFF;
 			}
 
 			input[type="button"].style3:active,
