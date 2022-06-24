@@ -711,7 +711,7 @@ input, select, textarea {
 		.button.anchored,
 		button.anchored {
 			position: absolute;
-			left: 50%;
+			
 		}
 
 		input[type="button"]:hover,
