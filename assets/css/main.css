@@ -705,6 +705,10 @@ input, select, textarea {
 				margin-left: -2.5em;
 			}
 		
+		input[type="button"].right,
+		input[type="submit"].right,
+		input[type="reset"].right,
+		.button.right,
 		button.right {
 			width: 5em;
 			height: 5em;
