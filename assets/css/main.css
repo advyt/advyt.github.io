@@ -718,6 +718,7 @@ input, select, textarea {
 			background-image: url("images/arrow.svg");
 			background-position: center center;
 			background-repeat: no-repeat;
+			transform: rotate(90deg);
 			text-indent: -10em;
 			overflow: hidden;
 		}
