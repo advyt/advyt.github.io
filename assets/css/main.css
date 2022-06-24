@@ -783,14 +783,13 @@ input, select, textarea {
 			}
 
 
-
 		input[type="button"].style3,
 		input[type="submit"].style3,
 		input[type="reset"].style3,
 		.button.style3,
 		button.style3 {
-		background-color: #FFFFFF;
-		border: solid 2px #000000;
+		background-color: transparent;
+		border: solid 2px #949494;
 		color: inherit;		
 		}
 
@@ -801,7 +800,7 @@ input, select, textarea {
 			button.style3:hover {
 				background-image: url("images/dark-arrow.svg");
 				background-color: #000000;
-				border: solid 2px #FFFFFF;
+				border: solid 2px #949494;
 			}
 
 			input[type="button"].style3:active,
