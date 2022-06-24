@@ -721,18 +721,6 @@ input, select, textarea {
 			overflow: hidden;
 		}
 
-			input[type="button"].right.anchored,
-			input[type="submit"].right.anchored,
-			input[type="reset"].right.anchored,
-			.button.right.anchored,
-			button.right.anchored {
-				bottom: 0;
-				border-bottom: 0;
-				border-radius: 3em 3em 0 0;
-				height: 15em;
-				margin-left: 15em;
-			}
-
 		input[type="button"].anchored,
 		input[type="submit"].anchored,
 		input[type="reset"].anchored,
