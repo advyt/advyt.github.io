@@ -704,6 +704,30 @@ input, select, textarea {
 				height: 4.5em;
 				margin-left: -2.5em;
 			}
+		
+		button.right {
+			width: 15em;
+			height: 15em;
+			line-height: 4.5em;
+			padding: 0;
+			background-image: url("images/dark-arrow.svg");
+			background-position: center center;
+			background-repeat: no-repeat;
+			text-indent: -10em;
+			overflow: hidden;
+		}
+
+			input[type="button"].right.anchored,
+			input[type="submit"].right.anchored,
+			input[type="reset"].right.anchored,
+			.button.right.anchored,
+			button.right.anchored {
+				bottom: 0;
+				border-bottom: 0;
+				border-radius: 3em 3em 0 0;
+				height: 14.5em;
+				margin-left: -12.5em;
+			}
 
 		input[type="button"].anchored,
 		input[type="submit"].anchored,
@@ -711,7 +735,7 @@ input, select, textarea {
 		.button.anchored,
 		button.anchored {
 			position: absolute;
-			
+			left: 50%;
 		}
 
 		input[type="button"]:hover,
@@ -763,6 +787,15 @@ input, select, textarea {
 			button.style2.down {
 				background-image: url("images/arrow.svg");
 			}
+
+			input[type="button"].style2.right,
+			input[type="submit"].style2.right,
+			input[type="reset"].style2.right,
+			.button.style2.right,
+			button.style2.right {
+				background-image: url("images/arrow.svg");
+			}
+
 
 /* Form */
 
