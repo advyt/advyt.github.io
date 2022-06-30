@@ -158,10 +158,10 @@
 							leave:		function() { $(this).addClass('inactive'); }
 						});
 				//Trans.
-					$( ".cta" )
-						.click(function() {
-						  $( ".transition").toggleClass( "anim-trans" );
-						});
+				$( ".cta" )
+					.click(function() {
+					  $( ".transition").toggleClass( "anim-trans" );
+					});
 
 			};
 			
