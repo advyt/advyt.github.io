@@ -502,8 +502,8 @@ input, select, textarea {
 	.transition {
 	  position:absolute;
 	  height:100%;
-	  width:30%;
-	  background:#d6d6d6;
+	  width:10%;
+	  background:#0a0a0a;
 	  transform: skewX(-5deg) translateX(-50px);
 	  transition:2s all ease-in-out;
 	  -webkit-transition:2s all ease-in-out;
