@@ -146,6 +146,12 @@
 							enter:		function() { $(this).removeClass('inactive'); },
 							leave:		function() { $(this).addClass('inactive'); }
 						});
+				
+					$('.main.style3')
+						.click(function() {
+					  		$( ".transition").toggleClass( "anim-trans" );
+						});
+
 
 				// Contact.
 					$('#contact')
@@ -157,11 +163,6 @@
 							enter:		function() { $(this).removeClass('inactive'); },
 							leave:		function() { $(this).addClass('inactive'); }
 						});
-				//Trans.
-				$( ".cta" )
-					.click(function() {
-					  $( ".transition").toggleClass( "anim-trans" );
-					});
 
 			};
 			
