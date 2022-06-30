@@ -157,8 +157,15 @@
 							enter:		function() { $(this).removeClass('inactive'); },
 							leave:		function() { $(this).addClass('inactive'); }
 						});
+				//Trans.
+					$( ".cta" )
+						.click(function() {
+						  $( ".transition").toggleClass( "anim-trans" );
+						});
 
 			};
+			
+			
 
 			var off = function() {
 
