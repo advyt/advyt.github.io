@@ -2092,6 +2092,32 @@ input, select, textarea {
 					background-image: url("images/dark-arrow.svg");
 				}
 
+
+		.main.light {
+			color: #000000;
+		}
+
+			.main.light a {
+				color: inherit;
+			}
+
+			.main.light .button.style2 {
+				border-color: #ffffff;
+			}
+
+				.main.light .button.style2:hover {
+					background-color: rgba(255, 255, 255, 0.125);
+				}
+
+				.main.light .button.style2:active {
+					background-color: rgba(255, 255, 255, 0.25);
+				}
+
+				.main.light .button.style2.down {
+					background-image: url("images/dark-arrow.svg");
+				}
+
+
 		body.is-touch .main {
 			background-attachment: scroll !important;
 		}
