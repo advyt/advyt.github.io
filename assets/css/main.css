@@ -758,6 +758,23 @@ input, select, textarea {
 			overflow: hidden;
 		}
 
+		input[type="button"].left,
+		input[type="submit"].left,
+		input[type="reset"].left,
+		.button.left,
+		button.left {
+			width: 5em;
+			height: 5em;
+			line-height: 4.5em;
+			padding: 0;
+			background-image: url("images/arrow.svg");
+			background-position: center center;
+			background-repeat: no-repeat;
+			transform: rotate(90deg);
+			text-indent: -10em;
+			overflow: hidden;
+		}
+
 		input[type="button"].anchored,
 		input[type="submit"].anchored,
 		input[type="reset"].anchored,
