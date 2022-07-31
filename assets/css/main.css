@@ -641,6 +641,13 @@ input, select, textarea {
 			border: solid 2px #000000;
 		}
 
+		.box.style3 {
+			height: 20%;
+			padding: 3.5em 2.5em 3.5em 2.5em;
+			width: 30%;
+			border: solid 2px #000000;
+		}
+
 		@media screen and (max-width: 736px) {
 
 			.box {
@@ -654,33 +661,11 @@ input, select, textarea {
 					border: solid 2px #000000;
 				}
 
-		}
-
-	.buttonbox {
-		background: #000000;
-		color: #000000;
-		padding: 2em;
-	}
-
-		.buttonbox > :last-child {
-			margin-bottom: 0;
-		}
-
-		.buttonbox.style2 {
-			height: 400px;
-			padding: 3.5em 2.5em 3.5em 2.5em;
-		}
-
-		@media screen and (max-width: 736px) {
-
-			.buutonbox {
-				padding: 1em;
-			}
-
-				.buttonbox.style2 {
+				.box.style3 {
 					height: 400px;
 					padding: 1.5em 1.25em 1.5em 1.25em;
 					background-color: rgba(255, 255, 255, 0.9);
+					border: solid 2px #000000;
 				}
 
 		}
