@@ -872,6 +872,14 @@ input, select, textarea {
 				background-image: url("images/arrow.svg");
 			}
 
+			input[type="button"].style3.left,
+			input[type="submit"].style3.left,
+			input[type="reset"].style3.left,
+			.button.style3.left,
+			button.style3.left {
+				background-image: url("images/arrow.svg");
+			}
+
 
 /* Form */
 
