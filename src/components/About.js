@@ -25,7 +25,7 @@ const About = () => {
                 alt=""
               />
             </div>
-            <p className="d-block d-md-none" align = 'justify'>
+            <p className="d-block d-md-none">
             My name is Advait Varma - or Advyt for short - and {`I'm`} a data science postgraduate based in the UK.
             With a combination of my unique academic background in the social sciences,
             as well as my expertise in data science, I like to analyse data through a truly multi-dimensional approach.
