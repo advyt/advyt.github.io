@@ -30,7 +30,7 @@ const Home = ({ leftImg, video, leftImgSrc }) => {
         <div className="main-text" id="selector">
           <h3>Hi there!</h3>
           <AnimationText />
-          <p align = 'justify'>
+          <p>
             {`I'm`} a data science postgraduate based in the UK.
             With a combination of my unique academic background in the social sciences as well as my expertise in data science,
             I like to analyse data through a truly multi-dimensional approach.
